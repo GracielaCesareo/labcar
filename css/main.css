@@ -18,12 +18,6 @@ nav {
   margin-top: 17%;
   margin-bottom: 8%;
 }
-.linea {
-  display: inline-block;
-}
-.bloque {
-  display: block;
-}
 #descarga {
   background: #FCB425;
 }
@@ -31,6 +25,10 @@ nav {
   border-top: 1px solid #FFF;
   border-right: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
 }
 .paddingT {
   padding-top: 10%;
