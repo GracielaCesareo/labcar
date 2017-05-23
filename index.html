@@ -10,9 +10,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-fixed-top">
+      <nav class="navbar nav-defaul navbar-fixed-top">
         <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -25,46 +25,72 @@
             </a>
           </div>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Viaja</a></li>
-            <li><a href="#">Conduce</a></li>
-            <li><a href="#">Inicia sesión</a></li>
+            <li><a href="#tarifas">Viaja</a></li>
+            <li><a href="#conduce">Conduce</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal">Inicia sesión</a></li>
           </ul>
-      </div><!-- /.container-fluid -->
-    </nav>
-      <!--
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-              <img alt="Brand" src="img/logoForma.png">
-            </a>
+          </div>
+        </div><!-- /.container-fluid -->
+      </nav>
+            <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content sesion">
+            <div class="row">
+              <div class="col-md-12 sesion">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <img src="" alt="">
+                  <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-user" id="basic-addon1"></span>
+                    <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-lock" id="basic-addon1"></span>
+                    <input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default">Login</button>
+                  </div>
+                  <p>Forgot Password? <a href="#">Click Here</a></p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"></a>Viaja</li>
-            <li><a href="#"></a>Conduce</li>
-            <li><a href="#"></a>Inicia sesión</li>
-          </ul>
-        </div>
-      </nav>
-      -->
+      </div>
     </header>
     <section id="registrate">
       <div class="row">
         <div class="col-md-7">
 
         </div>
-        <div class="col-md-5 yellow viaje amarillo">
+        <div class="col-md-5 yellow viaje white">
           <h2>Disfruta del viaje</h2>
           <h2>Eres dueño de tu tiempo</h2>
-          <p>viaja con <strong>Labcar</strong></p>
+          <h4>viaja con <span><img src="img/logoBlanco.png" alt=""></span></h4>
           <div class="btn btn-group-sm" role="group">
-            <button type="button" class="btn btn-default" name="button">REGISTRATE</button>
+            <button type="button" class="btn btn-default" name="button" data-toggle="modal" data-target="#myModal">REGISTRATE</button>
           </div>
-          <p>O bien</p>
+            <p class="text-center">O bien</p>
           <div class="btn btn-group-sm" role="group">
             <button type="button" class="btn btn-default" name="button">Conviérte en conductor</button>
+        </div>
+      </div>
+            <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
