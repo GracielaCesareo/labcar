@@ -28,7 +28,10 @@ nav {
 }
 .texto {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.item {
+  align-items: center;
 }
 .paddingT {
   padding-top: 10%;
