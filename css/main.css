@@ -66,6 +66,20 @@ hr {
   color: #FFF;
   border: none;
 }
+.tarifasInput {
+  background-color: transparent;
+  border: 1px solid #fff;
+  width: 80%;
+  margin-bottom: 5%;
+}
+.btn-ruta {
+  border: none;
+}
+
+.mapa {
+  border: 1px solid #fff;
+  padding: 2%;
+}
 
 #footer {
   background: #3e3f40;
