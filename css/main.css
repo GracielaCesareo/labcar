@@ -12,17 +12,11 @@ nav {
 }
  .amarillo {
    background: #FCB425;
-   padding: 10%;
+   padding: 3%;
  }
-.yellow {
-  background: #FCB425;
-}
 .viaje {
   margin-top: 17%;
   margin-bottom: 8%;
-}
-hr {
-  width: 30%;
 }
 .linea {
   display: inline-block;
