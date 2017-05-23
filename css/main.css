@@ -2,6 +2,10 @@ li {
   list-style: none;
   margin-top: 5%;
 }
+nav {
+  background-color: #FFF;
+  padding: 1%;
+}
 #registrate {
   background-image: url(../img/taxi.jpg);
 }
@@ -9,15 +13,29 @@ li {
    background: #FCB425;
    padding: 10%;
  }
-
+.yellow {
+  background: #FCB425;
+}
+.viaje {
+  margin-top: 40%;
+  margin-bottom: 40%;
+}
 #descarga {
   background: #FCB425;
+}
+.around {
+  border-top: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+.paddingT {
+  padding-top: 10%;
 }
 .white {
   color: #fff;
 }
 .padding {
-  padding: 100px;
+  padding: 5%;
 }
 
 .border {
