@@ -1,9 +1,13 @@
+li {
+  list-style: none;
+  margin-top: 5%;
+}
 #registrate {
   background-image: url(../img/taxi.jpg);
 }
  .amarillo {
    background: #FCB425;
-   padding: 200px;
+   padding: 10%;
  }
 
 #descarga {
@@ -22,4 +26,18 @@
 
 #conduce {
   background-image: url(../img/conduce.jpg);
+}
+
+#footer {
+  background: #3e3f40;
+  padding: 5%;
+}
+
+#listas {
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+  padding: 80px;
+}
+.tiendas {
+  padding-top: 12%;
 }
