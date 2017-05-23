@@ -36,24 +36,24 @@
       <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content sesion">
-            <div class="row">
-              <div class="col-md-12 sesion">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <img src="" alt="">
-                  <div class="input-group">
-                    <span class="input-group-addon glyphicon glyphicon-user" id="basic-addon1"></span>
-                    <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-                  </div>
-                  <div class="input-group">
-                    <span class="input-group-addon glyphicon glyphicon-lock" id="basic-addon1"></span>
-                    <input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
-                  </div>
-                  <div class="btn-group" role="group" aria-label="...">
-                    <button type="button" class="btn btn-default">Login</button>
-                  </div>
-                  <p>Forgot Password? <a href="#">Click Here</a></p>
+              <div class="row">
+                <div class="col-md-12 sesion">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <img src="" alt="">
+                    <div class="input-group">
+                      <span class="input-group-addon glyphicon glyphicon-user" id="basic-addon1"></span>
+                      <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-addon glyphicon glyphicon-lock" id="basic-addon1"></span>
+                      <input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="btn-group" role="group" aria-label="...">
+                      <button type="button" class="btn btn-default">Login</button>
+                    </div>
+                    <p>Forgot Password? <a href="#">Click Here</a></p>
+                </div>
               </div>
-            </div>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@
           <h2>Eres dueño de tu tiempo</h2>
           <h4>viaja con <span><img src="img/logoBlanco.png" alt=""></span></h4>
           <div class="btn btn-group-sm" role="group">
-            <button type="button" class="btn btn-default" name="button" data-toggle="modal" data-target="#myModal">REGISTRATE</button>
+            <button type="button" class="btn btn-default" name="button" data-toggle="modal" data-target="#modal">REGISTRATE</button>
           </div>
             <p class="text-center">O bien</p>
           <div class="btn btn-group-sm" role="group">
@@ -76,19 +76,49 @@
         </div>
       </div>
             <!-- Modal -->
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
             </div>
             <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">YA TIENES UNA CUENTA</button>
+              </div>
+              <p>O CREA UNA CUENTA</p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                  </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                  </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+              </div><!-- /.row -->
+              <input type="text" class="form-control" placeholder="Correo electrónico: name@example.com">
+              <input type="text" class="form-control" placeholder="Teléfono">
+              <input type="text" class="form-control" placeholder="Contraseña">
+              <input type="text" class="form-control" placeholder="Ciudad">
+              <input type="text" class="form-control" placeholder="(Opcional) Código de invitación">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Cómo te enteraste
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                </ul>
+              </div>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">Enviar</button>
+              </div>
             </div>
           </div>
         </div>
@@ -115,14 +145,29 @@
           <section id="conduce" class="white">
             <div class="row">
               <div class="col-md-8">
-
               </div>
-              <div class="col-md-4">
-                <h2>Conduce cuando quieras</h2>
-                <p>LabCar es un opción flexible para alcanzar tus metas financieras</p>
-                <div class="btn btn-group-sm" role="group">
-                  <button type="button" class="btn btn-default" name="button">Conviérte en conductor</button>
+              <div class="col-md-4 bottom padding">
+                <div class="row">
+                  <div class="col-md-12 padding tiendas">
+                    <h2>Conduce cuando quieras</h2>
+                    <h5>LabCar es un opción flexible para alcanzar tus metas financieras</h5>
+                    <div class="btn btn-group" role="group">
+                      <button type="button" class="btn btn-default btn-conductor" name="button" data-toggle="modal" data-target="conductor">Conviérte en conductor</button>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="conductor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="modal-body">
+
+                  </div>
               </div>
             </div>
           </section>
@@ -144,9 +189,7 @@
                 </div>
               </div>
               <div class="col-md-6">
-                <a href="#" class="thumbnail">
                   <img src="img/mapa.png" alt="...">
-                </a>
               </div>
             </div>
           </section>
