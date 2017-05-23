@@ -45,7 +45,7 @@ hr {
   color: #fff;
 }
 .padding {
-  padding: 5%;
+  padding: 3%;
 }
 
 .border {
@@ -55,6 +55,16 @@ hr {
 #conduce {
   background-image: url(../img/conduce.jpg);
   background-size: 100%;
+}
+.bottom {
+  margin-bottom: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-conductor {
+  background-color: #FCB425;
+  color: #FFF;
+  border: none;
 }
 
 #footer {
@@ -74,4 +84,5 @@ hr {
 .sesion {
   background: #fff;
   margin-bottom: 2%;
+  ba
 }
