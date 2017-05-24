@@ -9,7 +9,9 @@ nav {
 #registrate {
   background-image: url(../img/taxi.jpg);
   background-size: 100%;
-  background-position: center;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 900px;
 }
  .amarillo {
    background: #FCB425;
