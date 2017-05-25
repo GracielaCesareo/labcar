@@ -3,15 +3,20 @@ li {
   margin-top: 5%;
 }
 nav {
-  background-color: #FFF;
+  background-color: #FFF !important;
   padding: 1.5%;
 }
+
+*::-webkit-input-placeholder {
+    color: #FFF;
+}
+
 #registrate {
   background-image: url(../img/taxi.jpg);
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 900px;
+  background-size: cover;
 }
  .amarillo {
    background: #FCB425;
@@ -53,6 +58,9 @@ nav {
 #conduce {
   background-image: url(../img/conduce.jpg);
   background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .bottom {
   margin-bottom: 30%;
@@ -97,4 +105,10 @@ nav {
   background: #fff;
   margin-bottom: 2%;
   ba
+}
+
+.registro {
+  background-color: #19e8c9;
+  margin: 10%;
+  padding: 10%;
 }
